@@ -1,1 +1,0 @@
-import{k as s,j as t,K as l}from"./index-BgTY1ksm.js";const n=s("input")({clip:"rect(0 0 0 0)",clipPath:"inset(50%)",height:1,overflow:"hidden",position:"absolute",bottom:0,left:0,whiteSpace:"nowrap",width:1}),a=({label:e,icon:o,sx:i})=>t.jsxs(l,{component:"label",role:void 0,tabIndex:-1,startIcon:o,sx:{...i},children:[e,t.jsx(n,{type:"file",multiple:!0})]});export{a as F};
