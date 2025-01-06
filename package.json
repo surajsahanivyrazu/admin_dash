@@ -9,9 +9,9 @@
   "scripts": {
     "dev": "vite",
     "start": "vite preview",
-    "predeploy": "vite build",
-    "deploy": "gh-pages -d dist",
     "build": "DISABLE_ESLINT_PLUGIN=true tsc && vite build",
+    "predeploy": "DISABLE_ESLINT_PLUGIN=true tsc && vite build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
     "fm:check": "prettier --check \"src/**/*.{js,jsx,ts,tsx}\"",
