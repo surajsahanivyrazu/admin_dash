@@ -9,7 +9,7 @@
   "scripts": {
     "dev": "vite",
     "start": "vite preview",
-    "predeploy": "npm run build",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "build": "DISABLE_ESLINT_PLUGIN=true tsc && vite build",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
